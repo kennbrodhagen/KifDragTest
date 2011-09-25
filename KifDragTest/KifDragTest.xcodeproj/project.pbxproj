@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB5EDEC142FDDEA00703C2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDEB142FDDEA00703C2C /* UIKit.framework */; };
+		5CB5EDEE142FDDEA00703C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDED142FDDEA00703C2C /* Foundation.framework */; };
+		5CB5EDF0142FDDEA00703C2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDEF142FDDEA00703C2C /* CoreGraphics.framework */; };
+		5CB5EDF6142FDDEA00703C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EDF4142FDDEA00703C2C /* InfoPlist.strings */; };
+		5CB5EDF8142FDDEA00703C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EDF7142FDDEA00703C2C /* main.m */; };
+		5CB5EDFC142FDDEA00703C2C /* KifDragTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EDFB142FDDEA00703C2C /* KifDragTestAppDelegate.m */; };
+		5CB5EDFF142FDDEA00703C2C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EDFD142FDDEA00703C2C /* MainWindow.xib */; };
+		5CB5EE02142FDDEA00703C2C /* KifDragTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE01142FDDEA00703C2C /* KifDragTestViewController.m */; };
+		5CB5EE05142FDDEA00703C2C /* KifDragTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EE03142FDDEA00703C2C /* KifDragTestViewController.xib */; };
+		5CB5EE17142FE22400703C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EDF7142FDDEA00703C2C /* main.m */; };
+		5CB5EE18142FE22400703C2C /* KifDragTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EDFB142FDDEA00703C2C /* KifDragTestAppDelegate.m */; };
+		5CB5EE19142FE22400703C2C /* KifDragTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE01142FDDEA00703C2C /* KifDragTestViewController.m */; };
+		5CB5EE1B142FE22400703C2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDEB142FDDEA00703C2C /* UIKit.framework */; };
+		5CB5EE1C142FE22400703C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDED142FDDEA00703C2C /* Foundation.framework */; };
+		5CB5EE1D142FE22400703C2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EDEF142FDDEA00703C2C /* CoreGraphics.framework */; };
+		5CB5EE1F142FE22400703C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EDF4142FDDEA00703C2C /* InfoPlist.strings */; };
+		5CB5EE20142FE22400703C2C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EDFD142FDDEA00703C2C /* MainWindow.xib */; };
+		5CB5EE21142FE22400703C2C /* KifDragTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EE03142FDDEA00703C2C /* KifDragTestViewController.xib */; };
+		5CB5EE28142FE29D00703C2C /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5EE13142FE1CE00703C2C /* libKIF.a */; };
+		5CB5EE2B142FE41300703C2C /* EXTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE2A142FE41300703C2C /* EXTestController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CB5EE12142FE1CE00703C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB5EE0B142FE1CE00703C2C /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB07268139719AC008AF393;
+			remoteInfo = KIF;
+		};
+		5CB5EE2C142FE69E00703C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB5EE0B142FE1CE00703C2C /* KIF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB07267139719AC008AF393;
+			remoteInfo = KIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CB5EDE7142FDDEA00703C2C /* KifDragTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KifDragTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB5EDEB142FDDEA00703C2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CB5EDED142FDDEA00703C2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CB5EDEF142FDDEA00703C2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CB5EDF3142FDDEA00703C2C /* KifDragTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KifDragTest-Info.plist"; sourceTree = "<group>"; };
+		5CB5EDF5142FDDEA00703C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CB5EDF7142FDDEA00703C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB5EDF9142FDDEA00703C2C /* KifDragTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KifDragTest-Prefix.pch"; sourceTree = "<group>"; };
+		5CB5EDFA142FDDEA00703C2C /* KifDragTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KifDragTestAppDelegate.h; sourceTree = "<group>"; };
+		5CB5EDFB142FDDEA00703C2C /* KifDragTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KifDragTestAppDelegate.m; sourceTree = "<group>"; };
+		5CB5EDFE142FDDEA00703C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5CB5EE00142FDDEA00703C2C /* KifDragTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KifDragTestViewController.h; sourceTree = "<group>"; };
+		5CB5EE01142FDDEA00703C2C /* KifDragTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KifDragTestViewController.m; sourceTree = "<group>"; };
+		5CB5EE04142FDDEA00703C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KifDragTestViewController.xib; sourceTree = "<group>"; };
+		5CB5EE0B142FE1CE00703C2C /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = ../KIF/KIF.xcodeproj; sourceTree = "<group>"; };
+		5CB5EE25142FE22400703C2C /* KifDragTestKifTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KifDragTestKifTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB5EE27142FE22500703C2C /* KifDragTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KifDragTest copy-Info.plist"; path = "/Users/kennbrodhagen/code/iPhone/Play/KifDrag/KifDragTest/KifDragTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		5CB5EE29142FE41300703C2C /* EXTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTestController.h; path = KifDragTest/EXTestController.h; sourceTree = "<group>"; };
+		5CB5EE2A142FE41300703C2C /* EXTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXTestController.m; path = KifDragTest/EXTestController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB5EDE4142FDDEA00703C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EDEC142FDDEA00703C2C /* UIKit.framework in Frameworks */,
+				5CB5EDEE142FDDEA00703C2C /* Foundation.framework in Frameworks */,
+				5CB5EDF0142FDDEA00703C2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB5EE1A142FE22400703C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EE28142FE29D00703C2C /* libKIF.a in Frameworks */,
+				5CB5EE1B142FE22400703C2C /* UIKit.framework in Frameworks */,
+				5CB5EE1C142FE22400703C2C /* Foundation.framework in Frameworks */,
+				5CB5EE1D142FE22400703C2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB5EDDC142FDDEA00703C2C = {
+			isa = PBXGroup;
+			children = (
+				5CB5EE14142FE1DB00703C2C /* KifTests */,
+				5CB5EDF1142FDDEA00703C2C /* KifDragTest */,
+				5CB5EDEA142FDDEA00703C2C /* Frameworks */,
+				5CB5EDE8142FDDEA00703C2C /* Products */,
+				5CB5EE27142FE22500703C2C /* KifDragTest copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB5EDE8142FDDEA00703C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EDE7142FDDEA00703C2C /* KifDragTest.app */,
+				5CB5EE25142FE22400703C2C /* KifDragTestKifTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB5EDEA142FDDEA00703C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EDEB142FDDEA00703C2C /* UIKit.framework */,
+				5CB5EDED142FDDEA00703C2C /* Foundation.framework */,
+				5CB5EDEF142FDDEA00703C2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CB5EDF1142FDDEA00703C2C /* KifDragTest */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EDFA142FDDEA00703C2C /* KifDragTestAppDelegate.h */,
+				5CB5EDFB142FDDEA00703C2C /* KifDragTestAppDelegate.m */,
+				5CB5EDFD142FDDEA00703C2C /* MainWindow.xib */,
+				5CB5EE00142FDDEA00703C2C /* KifDragTestViewController.h */,
+				5CB5EE01142FDDEA00703C2C /* KifDragTestViewController.m */,
+				5CB5EE03142FDDEA00703C2C /* KifDragTestViewController.xib */,
+				5CB5EDF2142FDDEA00703C2C /* Supporting Files */,
+			);
+			path = KifDragTest;
+			sourceTree = "<group>";
+		};
+		5CB5EDF2142FDDEA00703C2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EDF3142FDDEA00703C2C /* KifDragTest-Info.plist */,
+				5CB5EDF4142FDDEA00703C2C /* InfoPlist.strings */,
+				5CB5EDF7142FDDEA00703C2C /* main.m */,
+				5CB5EDF9142FDDEA00703C2C /* KifDragTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CB5EE0C142FE1CE00703C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EE13142FE1CE00703C2C /* libKIF.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB5EE14142FE1DB00703C2C /* KifTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EE0B142FE1CE00703C2C /* KIF.xcodeproj */,
+				5CB5EE29142FE41300703C2C /* EXTestController.h */,
+				5CB5EE2A142FE41300703C2C /* EXTestController.m */,
+			);
+			name = KifTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB5EDE6142FDDEA00703C2C /* KifDragTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB5EE08142FDDEA00703C2C /* Build configuration list for PBXNativeTarget "KifDragTest" */;
+			buildPhases = (
+				5CB5EDE3142FDDEA00703C2C /* Sources */,
+				5CB5EDE4142FDDEA00703C2C /* Frameworks */,
+				5CB5EDE5142FDDEA00703C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KifDragTest;
+			productName = KifDragTest;
+			productReference = 5CB5EDE7142FDDEA00703C2C /* KifDragTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB5EE15142FE22400703C2C /* KifDragTestKifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB5EE22142FE22400703C2C /* Build configuration list for PBXNativeTarget "KifDragTestKifTests" */;
+			buildPhases = (
+				5CB5EE16142FE22400703C2C /* Sources */,
+				5CB5EE1A142FE22400703C2C /* Frameworks */,
+				5CB5EE1E142FE22400703C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB5EE2D142FE69E00703C2C /* PBXTargetDependency */,
+			);
+			name = KifDragTestKifTests;
+			productName = KifDragTest;
+			productReference = 5CB5EE25142FE22400703C2C /* KifDragTestKifTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB5EDDE142FDDEA00703C2C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5CB5EDE1142FDDEA00703C2C /* Build configuration list for PBXProject "KifDragTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CB5EDDC142FDDEA00703C2C;
+			productRefGroup = 5CB5EDE8142FDDEA00703C2C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5CB5EE0C142FE1CE00703C2C /* Products */;
+					ProjectRef = 5CB5EE0B142FE1CE00703C2C /* KIF.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5CB5EDE6142FDDEA00703C2C /* KifDragTest */,
+				5CB5EE15142FE22400703C2C /* KifDragTestKifTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5CB5EE13142FE1CE00703C2C /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = 5CB5EE12142FE1CE00703C2C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB5EDE5142FDDEA00703C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EDF6142FDDEA00703C2C /* InfoPlist.strings in Resources */,
+				5CB5EDFF142FDDEA00703C2C /* MainWindow.xib in Resources */,
+				5CB5EE05142FDDEA00703C2C /* KifDragTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB5EE1E142FE22400703C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EE1F142FE22400703C2C /* InfoPlist.strings in Resources */,
+				5CB5EE20142FE22400703C2C /* MainWindow.xib in Resources */,
+				5CB5EE21142FE22400703C2C /* KifDragTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB5EDE3142FDDEA00703C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EDF8142FDDEA00703C2C /* main.m in Sources */,
+				5CB5EDFC142FDDEA00703C2C /* KifDragTestAppDelegate.m in Sources */,
+				5CB5EE02142FDDEA00703C2C /* KifDragTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB5EE16142FE22400703C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5EE17142FE22400703C2C /* main.m in Sources */,
+				5CB5EE18142FE22400703C2C /* KifDragTestAppDelegate.m in Sources */,
+				5CB5EE19142FE22400703C2C /* KifDragTestViewController.m in Sources */,
+				5CB5EE2B142FE41300703C2C /* EXTestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB5EE2D142FE69E00703C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			targetProxy = 5CB5EE2C142FE69E00703C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CB5EDF4142FDDEA00703C2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB5EDF5142FDDEA00703C2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CB5EDFD142FDDEA00703C2C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB5EDFE142FDDEA00703C2C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5CB5EE03142FDDEA00703C2C /* KifDragTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB5EE04142FDDEA00703C2C /* en */,
+			);
+			name = KifDragTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB5EE06142FDDEA00703C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CB5EE07142FDDEA00703C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB5EE09142FDDEA00703C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifDragTest/KifDragTest-Prefix.pch";
+				INFOPLIST_FILE = "KifDragTest/KifDragTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CB5EE0A142FDDEA00703C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifDragTest/KifDragTest-Prefix.pch";
+				INFOPLIST_FILE = "KifDragTest/KifDragTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CB5EE23142FE22400703C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifDragTest/KifDragTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RUN_KIF_TESTS=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../KIF/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KifDragTest copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = KifDragTestKifTests;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CB5EE24142FE22400703C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifDragTest/KifDragTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../KIF/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KifDragTest copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = KifDragTestKifTests;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB5EDE1142FDDEA00703C2C /* Build configuration list for PBXProject "KifDragTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB5EE06142FDDEA00703C2C /* Debug */,
+				5CB5EE07142FDDEA00703C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB5EE08142FDDEA00703C2C /* Build configuration list for PBXNativeTarget "KifDragTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB5EE09142FDDEA00703C2C /* Debug */,
+				5CB5EE0A142FDDEA00703C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CB5EE22142FE22400703C2C /* Build configuration list for PBXNativeTarget "KifDragTestKifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB5EE23142FE22400703C2C /* Debug */,
+				5CB5EE24142FE22400703C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB5EDDE142FDDEA00703C2C /* Project object */;
+}
